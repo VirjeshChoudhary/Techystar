@@ -8,16 +8,16 @@ const Contact = () => {
 
         <form className=' lg:m-[5rem] flex flex-col items-center justify-center '>
           <div className=' h-[3rem] flex items-center justify-end w-[60%] m-[0.5rem] '>
-            <label className=' font-recursive text[1.2rem] font-semibold w-[40%] lg:w-[20%] my-[1rem]  '>Name :</label>
+            <label className=' font-recursive text[1.2rem] font-semibold w-[40%] lg:w-[20%] my-[1rem]  '>Name</label>
             <input className='ml-[1.2rem] lg:ml-0 self-stretch w-[120%] lg:w-[80%] p-[1rem] rounded-lg border-solid outline-none border-[rgba(123, 123, 123, 0.6)] border-[1px] '  type="text" required placeholder="Username" />
           </div>
 
           <div className=' h-[3rem] flex items-center justify-end w-[60%] m-[0.5rem] '>
-            <label className=' font-recursive text[1.2rem] font-semibold w-[40%] lg:w-[20%] my-[1rem]  '>Email :</label>
+            <label className=' font-recursive text[1.2rem] font-semibold w-[40%] lg:w-[20%] my-[1rem]  '>Email</label>
             <input className='ml-[1.2rem] lg:ml-0 self-stretch w-[120%] lg:w-[80%] p-[1rem] rounded-lg border-solid outline-none border-[rgba(123, 123, 123, 0.6)] border-[1px] ' type="email" required placeholder="Abc@gmail.com" />
           </div>
           <div className=' h-[3rem] flex items-center justify-end w-[60%] m-[0.5rem] '>
-            <label className=' font-recursive text[1.2rem] font-semibold w-[70%] lg:w-[20%] my-[1rem]  '>Message :</label>
+            <label className=' font-recursive text[1.2rem] font-semibold w-[70%] lg:w-[20%] my-[1rem]  '>Message</label>
             <input className='ml-[1.2rem] lg:ml-0 self-stretch w-[120%] lg:w-[80%] p-[1rem] rounded-lg border-solid outline-none border-[rgba(123, 123, 123, 0.6)] border-[1px] ' 
               type="text"
               required
