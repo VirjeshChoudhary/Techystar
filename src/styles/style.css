@@ -1,0 +1,34 @@
+.home {
+      
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: no-repeat center/auto url("../assets/1.png");
+      filter: blur(2px);
+      border-radius: 0 0 200px 200px;
+    }
+  }
+  .home2img{
+    animation: imgup 1s linear infinite alternate;
+  }
+  @keyframes imgup{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+    
+  }
+  .brands{
+    animation: brand 1s linear infinite alternate;
+   
+  }
+  @keyframes brand{
+    to{
+        transform: translateY(-10px);
+    }
+}
+  
